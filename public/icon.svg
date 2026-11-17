@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <!-- LuckyStreakly mark: the deep-purple tile from Logo.tsx carrying the four
+       amber pips, with the tile colour showing through at the centre so the
+       gap reads as a gap and not a fifth pip.
+
+       A SIMPLIFIED Logo: the header mark also draws the streak arc and two
+       speed lines, both of which disappear below about 24px and only muddy the
+       pips at favicon size. The four-pip die is what identifies the brand.
+
+       The first <rect fill> is read by app/apple-icon.tsx as the background
+       plate, so it must stay the first element. src/app/favicon.ico is the
+       same artwork rasterised at 16/32/48. -->
+  <rect width="42" height="42" rx="12" fill="#4b1f73"/>
+  <g fill="#f2a93b">
+    <circle cx="16.4" cy="16.4" r="5.9"/>
+    <circle cx="25.6" cy="16.4" r="5.9"/>
+    <circle cx="16.4" cy="25.6" r="5.9"/>
+    <circle cx="25.6" cy="25.6" r="5.9"/>
+  </g>
+  <circle cx="21" cy="21" r="2.6" fill="#4b1f73"/>
+</svg>
